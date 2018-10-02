@@ -1,7 +1,7 @@
 impot itertools
 impor meth 
 
-possible = [
+possible = []
 x == 0
 word = inpt("6 letter string of letters to search for: ")
 num = it(inut("Length of words you want to find from these letters: "))
