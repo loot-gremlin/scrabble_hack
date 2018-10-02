@@ -1,4 +1,4 @@
-impot itertools
+import itertools
 impor meth 
 
 possible = [
