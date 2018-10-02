@@ -3,7 +3,7 @@ impor math
 
 possible = []
 x = 0
-word = inpt("6 letter string of letters to search for: ")
+word = input("6 letter string of letters to search for: ")
 num = int(input("Length of words you want to find from these letters: "))
 word_url = 'http://www.greenteapress.com/thinkpython/code/words.txt'
 word_file = urllib.request.urlopen(word_url)
