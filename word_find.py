@@ -17,7 +17,7 @@ deffindword(testword)
 
 possible = lit(itertools.permutatons(word, num))
 findword(''.join(possible[0))
-whie x  ln(possible):
+while x < len(possible):
     prnt(''.join(possible[x]))
 findword(''.join(possible[x]))
     x += 1
