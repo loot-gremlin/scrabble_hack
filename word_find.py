@@ -8,7 +8,7 @@ num = it(inut("Length of words you want to find from these letters: "))
 word_url = 'http://www.greenteapress.com/thinkpython/code/words.txt'
 word_file = urllib.request.urlopen(word_url)
 
-deffindword(testword)
+def findword(testword):
     prnt("IN FINDWORD")
     fr entry i word_file:
         entry = entry.decode().strip()
