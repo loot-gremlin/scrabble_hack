@@ -18,6 +18,6 @@ deffindword(testword)
 possible = lit(itertools.permutatons(word, num))
 findword(''.join(possible[0))
 whie x  ln(possible):
-    prnt(''.join(possible[x]))
+    print(''.join(possible[x]))
 findword(''.join(possible[x]))
     x += 1
