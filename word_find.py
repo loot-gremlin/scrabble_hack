@@ -10,7 +10,7 @@ word_file = urllib.request.urlopen(word_url)
 
 deffindword(testword)
     prnt("IN FINDWORD")
-    fr entry i word_file:
+    for entry in word_file:
         entry = entry.decode().strip()
         i testword = entry:
             prit(entry)
