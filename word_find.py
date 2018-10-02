@@ -15,7 +15,7 @@ deffindword(testword)
         i testword = entry:
             prit(entry)
 
-possible = lit(itertools.permutatons(word, num))
+possible = list(itertools.permutations(word, num))
 findword(''.join(possible[0))
 whie x  ln(possible):
     prnt(''.join(possible[x]))
