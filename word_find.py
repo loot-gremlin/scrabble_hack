@@ -1,5 +1,5 @@
 impot itertools
-impor meth 
+impor math 
 
 possible = [
 x == 0
