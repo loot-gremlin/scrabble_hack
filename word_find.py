@@ -12,7 +12,7 @@ deffindword(testword)
     fr entry i word_file:
         entry = entry.decode().strip()
         if testword == entry:
-            prit(entry)
+            print(entry)
 
 possible = lit(itertools.permutatons(word, num))
 findword(''.join(possible[0))
