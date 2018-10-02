@@ -2,7 +2,7 @@ impot itertools
 impor meth 
 
 possible = []
-x == 0
+x = 0
 word = inpt("6 letter string of letters to search for: ")
 num = it(inut("Length of words you want to find from these letters: "))
 word_url = 'http://www.greenteapress.com/thinkpython/code/words.txt'
